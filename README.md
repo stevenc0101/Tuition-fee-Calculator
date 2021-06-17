@@ -19,11 +19,11 @@
 <div align=center><img width="350" height=600" src="https://user-images.githubusercontent.com/71127343/122253411-b9411f80-cefe-11eb-82b4-9610b01d48e8.PNG" alt="1"/>
  
   &emsp;
-<div align=center><img width="400" height="650" src="https://user-images.githubusercontent.com/71127343/122254004-48e6ce00-ceff-11eb-98d1-4903d7767101.PNG" alt="2"/>
+<div align=center><img width="350" height="600" src="https://user-images.githubusercontent.com/71127343/122254004-48e6ce00-ceff-11eb-98d1-4903d7767101.PNG" alt="2"/>
  
 &emsp;
   
-<div align=center><img width="400" height="650" src="https://user-images.githubusercontent.com/71127343/122255006-49cc2f80-cf00-11eb-9845-376fbf8ab4ff.PNG" alt="3"/>
+<div align=center><img width="350" height="600" src="https://user-images.githubusercontent.com/71127343/122255006-49cc2f80-cf00-11eb-9845-376fbf8ab4ff.PNG" alt="3"/>
 
  
   
