@@ -1,0 +1,30 @@
+/* pages/demo/demo.wxss */
+
+page{
+  background:#aeb4b8;
+}
+
+.head {
+ position: absolute;
+ left:10%;
+ right:10%;
+ top:3%;
+ font-size: 35rpx;
+}
+
+.warning {
+  position: absolute;
+  left:2%;
+  right:2%;
+  top:19%;
+  color: rgb(151, 18, 18);
+  font-size: 30rpx;
+}
+
+
+.statement1 {
+ position:absolute;
+ font-size: 25rpx;
+ top:75%;
+ left:2%;
+}

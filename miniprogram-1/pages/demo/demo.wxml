@@ -1,0 +1,19 @@
+<!--pages/demo/demo.wxml-->
+<text class="head">
+-本小程序用于帮助麦克马斯特大学的本科学生,或者将来有意愿报读该学校的学生计算自己的学费。
+</text>
+
+<text class="warning">
+  （注：计算结果不包含supplementary以及other charges的费用，计算结果仅包含"Tuition"的费用）
+</text>
+
+<view class="statement1">
+<text class="statement" selectable="true">
+----------------------------------------------------
+开发者：Steven
+
+学费计算方式依照学校官网提供的数据
+学费数据链接：https://registrar.mcmaster.ca/tuition-fees/
+</text>
+</view>
+

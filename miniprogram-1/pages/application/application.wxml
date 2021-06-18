@@ -1,0 +1,52 @@
+<!--pages/application/application.wxml-->
+
+     <view class="title1">
+ 学分总数
+     </view>
+
+     <view class="title2">
+ 我的专业
+     </view>
+
+<!--输入学分-->
+<input class="input"  value='{{inputcre}}' placeholder="学分" maxlength="3" type="number" placeholder-class="bgc"
+     bindinput="handleInput" />
+     
+      <!--专业选择-->
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{newarray}}">
+     <view class="picker" wx:if="{{index==null}}">
+         单击此处选择
+     </view>
+     <view class="title3" wx:else>
+        {{newarray[index]}}
+     </view>
+    </picker>
+
+
+
+
+
+<!--年级与身份选项-->
+<view class="section">
+  <view class="section__title">我的年级与身份</view>
+  <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+    <view class="title4" wx:if="{{multiIndex_level==null}}">
+      单击此处选择
+    </view>
+    <view class="levelandid" wx:else>
+      {{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}
+    </view>
+  </picker>
+</view>
+
+<!--按钮-->
+<button class="calculate_button" bindtap="handletap">计算</button>
+
+<!--按钮——清空-->
+<button class="clear_button" bindtap="handletap_clear" >清空</button>
+
+<!--显示-->
+<view class="display" wx:if="{{(multiIndex_level != null) && (multiIndex_id != null) && (index != null) && (credit != null) && (istap != false)}}" >
+我本学期/学年的学费为：${{tuition}} 
+</view>
+

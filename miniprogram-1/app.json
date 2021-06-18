@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/application/application",
+    "pages/demo/demo",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#7a003c",
+    "navigationBarTitleText": "McMaster Tuition",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/application/application",
+      "text": "计算器"
+    },
+    {
+      "pagePath": "pages/demo/demo",
+      "text": "关于"
+    }
+  ],
+  "backgroundColor": "#5b6770",
+  "color": "#ffffff"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

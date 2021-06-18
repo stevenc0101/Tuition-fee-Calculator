@@ -1,0 +1,109 @@
+/* pages/application/application.wxss */
+page {
+  background: rgb(184, 182, 182);
+  background:#8e979d;
+}
+.input {
+  position:fixed;
+  left: 30%;
+  top: 50%;
+  width: 40%;
+  height: 8%;
+  background: rgba(241, 241, 241,0.671);
+ 
+  border-radius: 10px;
+}
+
+.title1 {
+  position:fixed;
+  left: 40%;
+  top: 45%;
+}
+
+.title2 {
+  position:fixed;
+  left: 40%;
+  top: 25%;
+}
+
+.title3 {
+  position:fixed;
+  left: 30%;
+  top: 30%;
+  width: 40%;
+  background: #8e979d;
+  border: rgb(206, 3, 3);
+}
+
+.section__title {
+  position:fixed;
+  left: 32.5%;
+  top: 5%;
+}
+.picker {
+  position:fixed;
+  left: 30%;
+  top: 30%;
+  width: 40%;
+  height: 8%;
+  background: rgba(241, 241, 241,0.671);
+  border-radius: 10px;
+  border: rgb(206, 3, 3);
+}
+
+.checkbox {
+  position:fixed;
+  left: 50%;
+  top: 10%;
+}
+
+.change {
+  position:fixed;
+  left: 60%;
+  top: 20%;
+}
+
+.title4 {
+  position:fixed;
+  left: 30%;
+  top: 10%;
+  width: 40%;
+  height: 8%;
+  background: rgba(241, 241, 241, 0.671);
+  border-radius: 10px;
+}
+.levelandid {
+  position:fixed;
+  left: 30%;
+  top: 10%;
+  width: 40%;
+  height: 8%;
+  background: #8e979d;
+}
+
+.calculate_button {
+  position:absolute;
+  left: 450rpx;
+  top: 75%;
+  width: 150rpx !important;
+  background-color: #940049;
+  color: #ffffff;
+  border-radius: 15px
+}
+
+.clear_button {
+  position:absolute;
+  left: 150rpx;
+  top: 75%;
+  width:150rpx !important;
+  background-color: #940049;
+  color: #ffffff;
+  border-radius: 15px
+  
+}
+.display {
+  position:fixed;
+  left: 6%;
+  top: 65%;
+  font-size: 40rpx;
+}
